@@ -13,6 +13,7 @@ sap.ui.define([
 					name: "Json Sample"
 				}
 			};
+
 			var oModel = new JSONModel(oData);
 			this.getView().setModel(oModel);
 		},
